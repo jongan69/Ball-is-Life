@@ -42,6 +42,7 @@
 				ABDFE1FA222B7EBF00DD5A6F /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		ABDFE1FA222B7EBF00DD5A6F /* Products */ = {
 			isa = PBXGroup;
