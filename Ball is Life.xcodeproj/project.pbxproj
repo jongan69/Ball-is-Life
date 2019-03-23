@@ -10,8 +10,8 @@
 		ABDFE1FD222B7EBF00DD5A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDFE1FC222B7EBF00DD5A6F /* AppDelegate.swift */; };
 		ABDFE1FF222B7EBF00DD5A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDFE1FE222B7EBF00DD5A6F /* ViewController.swift */; };
 		ABDFE202222B7EBF00DD5A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDFE200222B7EBF00DD5A6F /* Main.storyboard */; };
-		ABDFE204222B7EC000DD5A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDFE203222B7EC000DD5A6F /* Assets.xcassets */; };
 		ABDFE207222B7EC000DD5A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDFE205222B7EC000DD5A6F /* LaunchScreen.storyboard */; };
+		ABDFE20F222C397800DD5A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDFE20E222C397800DD5A6F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		ABDFE1FC222B7EBF00DD5A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABDFE1FE222B7EBF00DD5A6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABDFE201222B7EBF00DD5A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABDFE203222B7EC000DD5A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABDFE206222B7EC000DD5A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABDFE208222B7EC000DD5A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDFE20E222C397800DD5A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 				ABDFE1FC222B7EBF00DD5A6F /* AppDelegate.swift */,
 				ABDFE1FE222B7EBF00DD5A6F /* ViewController.swift */,
 				ABDFE200222B7EBF00DD5A6F /* Main.storyboard */,
-				ABDFE203222B7EC000DD5A6F /* Assets.xcassets */,
 				ABDFE205222B7EC000DD5A6F /* LaunchScreen.storyboard */,
+				ABDFE20E222C397800DD5A6F /* Assets.xcassets */,
 				ABDFE208222B7EC000DD5A6F /* Info.plist */,
 			);
 			path = "Ball is Life";
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABDFE207222B7EC000DD5A6F /* LaunchScreen.storyboard in Resources */,
-				ABDFE204222B7EC000DD5A6F /* Assets.xcassets in Resources */,
+				ABDFE20F222C397800DD5A6F /* Assets.xcassets in Resources */,
 				ABDFE202222B7EBF00DD5A6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.cryptocurrensea.Ball-is-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.cryptocurrensea.Ball-is-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
